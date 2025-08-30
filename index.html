@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Title & Description -->
+    <title>Saurav - Full Stack Web Developer & AI Enthusiast Portfolio</title>
+    <meta name="description"
+      content="Official portfolio of Saurav, a Full Stack Web Developer and AI/ML enthusiast from Ambala, India. Explore projects, skills, certifications, and contact info.">
+
+    <!-- Keywords -->
+    <meta name="keywords"
+      content="Saurav, Web Developer, AI Engineer, Portfolio, Full Stack Developer, Ambala, India, JavaScript, Python, GitHub, VTU">
+
+    <!-- Author -->
+    <meta name="author" content="Saurav">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://sauravgohill45.github.io/">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+
+    <!-- Stylesheets & Fonts -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:wght@100;400;700&display=swap"
+      rel="stylesheet">
+
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="P80dxaZ5cZu6YNIaJfKNAkRvBQZg0vf6NVGxqLWphrg" />
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (Facebook / LinkedIn Preview) -->
+    <meta property="og:title" content="Saurav - Full Stack Developer & AI Enthusiast">
+    <meta property="og:description"
+      content="Saurav’s developer portfolio - Projects, Skills, Education & Contact Information.">
+    <meta property="og:image" content="https://sauravgohill45.github.io/Saurav.webp">
+    <meta property="og:url" content="https://sauravgohill45.github.io/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Saurav - Full Stack Developer & AI Enthusiast">
+    <meta name="twitter:description"
+      content="Explore Saurav’s portfolio - Web Development, AI Projects, Education & More.">
+    <meta name="twitter:image" content="https://sauravgohill45.github.io/Saurav.webp">
+
+    <!-- Structured Data using JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Saurav Kumar",
+      "url": "https://sauravgohill45.github.io/",
+      "image": "https://sauravgohill45.github.io/Saurav.webp",
+      "sameAs": [
+        "https://x.com/sauravgohill45",
+        "https://github.com/Saurav-gohill",
+        "https://www.instagram.com/saurav_gohill/"
+      ],
+      "jobTitle": "Full Stack Web Developer",
+      "worksFor": {
+        "@type": "CollegeOrUniversity",
+        "name": "Maharishi Markandeshwar University"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Ambala",
+        "addressRegion": "Haryana",
+        "postalCode": "134003",
+        "addressCountry": "IN"
+      }
+    }
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "c6m2yQWjR-9b-TaEO",
+            });
+        })();
+    </script>
+    <script src="mail.js"></script>
+  </head>
+
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <div>
+        <p title="Rahul-Gulabaji">Saurav`s Portfolio</p>
+      </div>
+      <ul id="menu">
+        <li><a data-section="home">Home</a></li>
+        <li><a href="" data-section="about">About</a></li>
+        <li><a href="" data-section="education">Education</a></li>
+        <li><a href="" data-section="skills">Skills</a></li>
+        <li><a href="" data-section="projects">Projects</a></li>
+        <li id="resuem"> <a href="resume/Resume.pdf" target="_blank">Resume</a></li>
+        <li><a href="" data-section="contact">Contact</a></li>
+      </ul>
+      <img src="icons/menu.png" id="ham">
+    </nav>
+  </header>
+  <main>
+
+    <!-- Section Home -->
+    <section id="home" class="section">
+      <section id="hello" class="first">
+        <div id="left">
+          <div style="font-size: 30px;">
+            <h1>Saurav Kumar</h1>
+            <div class="type">
+              I am a <span id="element"></span>
+            </div>
+          </div>
+          <div id="social">
+            <a href="mailto: sauravgohill45@gmail.com"><img src="icons/email.png" id="email" alt="Email"></a>
+            <a href="https://x.com/rahulgulabaji"><img src="icons/twitter-x.png" id="linkedin" alt="Twitter-x"></a>
+            <a href="https://github.com/Saurav-gohill"><img src="icons/github.png" id="github" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/saurav-kumar45/"><img src="icons/linkedin.png" id="linkedin"
+                alt="Linkedin"></a>
+            <a href="https://www.instagram.com/saurav_gohill/"><img src="icons/instagram.png" id="instagram"
+                alt="Instagram"></a>
+          </div>
+        </div>
+        <!-- Right Section in Home for Image Profile Pic  -->
+        <div id="right">
+          <img src="Myimage.png" id="profile-pic" style="cursor:pointer;">
+        </div>
+        <!-- Modal Card for Hero Section -->
+    <div id="hero-modal" style="display:none;">
+      <div class="hero-modal-content">
+        <span class="hero-modal-close">&times;</span>
+        <div class="hero-modal-img-wrap">
+          <img src="Myimage.png" class="hero-modal-img" alt="Profile">
+        </div>
+        <h2 class="hero-modal-title">Saurav Kumar</h2>
+        <div class="hero-modal-role">Full-Stack Developer</div>
+        <p class="hero-modal-desc">I'm a passionate developer with expertise in both frontend and backend technologies. I love creating innovative digital experiences with cutting-edge technologies.</p>
+        <button class="hero-modal-connect">Connect with me</button>
+        <div class="hero-modal-socials">
+          <a href="https://github.com/Saurav-gohill" target="_blank"><img src="icons/github.png" alt="Github"></a>
+          <a href="https://www.linkedin.com/in/saurav-kumar45/" target="_blank"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+          <a href="https://www.instagram.com/saurav_gohill/" target="_blank"><img src="icons/instagram.png" alt="Instagram"></a>
+        </div>
+      </div>
+    </div> 
+      </section>
+      <div class="click-image">Click image to show card</div>
+      <div id="footer">
+        <p>Made With <span id="Heart">&#x2764; </span> and &lt;/&gt; by Saurav</p>
+      </div>
+    </section>
+    <!-- ABOUT SECTION  -->
+    <section id="about" class="About section">
+      <div id="heading" class="about">
+        <h3>About</h3>
+        <div id="line"></div>
+      </div>
+      <div id="box">
+        <div class="about" id="about-left">
+          <img src="Myimage.png" id="about-pic">
+          <h3>Saurav Kumar</h3>
+          <ul>
+            <li><i class="arrow">> </i><strong>Birthday:</strong>Jan 2003</li>
+            <li><i class="arrow">> </i><strong>Phone:</strong> __________</li>
+            <li><i class="arrow">> </i> <strong>City:</strong> Ambala, India</li>
+            <li><i class="arrow">> </i><strong>Email:</strong> sauravgohill45@gmail.com</li>
+          </ul>
+        </div>
+        <div id="about-right" class="about">
+          <p id="about-p">
+            Greetings,<br><br>
+            Hey there! I’m Gohill, a passionate developer who enjoys turning ideas into working applications. I’ve built
+            projects ranging from AI-powered email assistants to a college timetable automation system.
+
+            My strengths lie in problem-solving, teamwork, and adaptability. Whether it’s debugging code or
+            brainstorming solutions with my team, I love challenges that push me to learn more.
+
+            When I’m not coding, you’ll probably find me on a badminton court, riding my bike, or waiting for the next
+            episode of my favorite anime😁. 🚀
+          </p>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- Section Education  -->
+    <section id="education" class="Education section">
+      <div id="heading" class="about">
+        <h3>Education</h3>
+        <div id="line"></div>
+      </div>
+      <div class="Eduaction-box">
+        <div id="BE">
+          <a href="https://vtu.ac.in/"><img src="icons/vtu.png" id="vtu-logo"></a>
+          <div id="course-deatils">
+            <div><i>Master's in Computer Application</i></div>
+            <div id="course-duration">
+              <h3>2024 - 2026</h3>
+            </div>
+            <ul>
+              <li>Leading development of enterprise applications using React and Node.js</li>
+            </ul>
+          </div>
+        </div>
+        <div id="BE">
+          <a href="https://vtu.ac.in/"><img src="icons/vtu.png" id="vtu-logo"></a>
+          <div id="course-deatils">
+            <div><i>Bachelor's in Computer Application</i></div>
+            <div id="course-duration">
+              <h3>2020 - 2023</h3>
+            </div>
+            <ul>
+              <li>Created responsive and interactive user interfaces for web applications</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="heading" class="about">
+        <h3>Certification</h3>
+        <div id="line"></div>
+      </div>
+      <div id="certification-section">
+
+        <div id="SQL-Basic" class="Certification-tab">
+          <img class="Certification-icon" src="icons/IBM.png">
+          <div>
+            <a href="https://www.hackerrank.com/certificates/iframe/36bc75d18f57">
+
+              <p class="Certification-heading">HackerRank SQL(Basic) Certification</p>
+            </a>
+            <p class="date">Date: 29 Mar, 2025</p>
+
+          </div>
+
+
+        </div>
+        <div id="SQL-Basic" class="Certification-tab">
+          <img class="Certification-icon" src="icons/google.png">
+          <div>
+            <a href="https://www.coursera.org/account/accomplishments/verify/PQM3JH8FUSDS">
+
+              <p class="Certification-heading">Google Python (Basic) by Coursera</p>
+            </a>
+            <p class="date">Date: 26 Mar, 2024</p>
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </section>
+    <!--  Section Skills-->
+    <section id="skills" class="section">
+      <div id="heading" class="about">
+        <h3>Skills</h3>
+        <div id="line"></div>
+      </div>
+      <div id="skills-box">
+        <div>
+          <div class="skills-tab"><img src="icons/java.png" alt="Java"><span class="sr-only">JAVA</span></div>
+          <div class="skills-tab"><img src="icons/python.png" alt="Python"><span class="sr-only">PYTHON</span></div>
+          <div class="skills-tab"><img src="icons/html-5.png" alt="Html"><span class="sr-only">HTML</span></div>
+          <div class="skills-tab"><img src="icons/css-3.png" alt="Css"><span class="sr-only">CSS</span></div>
+          <div class="skills-tab"><img src="icons/spring.png" alt="React"><span class="sr-only">React</span></div>
+        </div>
+        <div>
+          <div class="skills-tab"><img src="icons/social.png" alt="Git"><span class="sr-only">GIT</span></div>
+          <div class="skills-tab"><img src="icons/github-sign.png" alt="Github"><span class="sr-only">GITHUB</span>
+          </div>
+          <div class="skills-tab"><img src="icons/js.png" alt="JavaScript"><span class="sr-only">JAVASCRIPT</span></div>
+          <div class="skills-tab"><img src="icons/pngegg.png" alt="NodeJs"><span class="sr-only">NODEJS</span></div>
+          <div class="skills-tab"><img src="icons/Web-development.jpg" alt="Spring Boot"><span class="sr-only">SPRING
+              BOOT</span></div>
+        </div>
+        <div>
+
+          <div class="skills-tab"><img src="icons/pngegg.png" alt="Docker"><span class="sr-only">DOCKER</span></div>
+          <div class="skills-tab"><img src="icons/aws.png" alt="AWS"><span class="sr-only">AWS</span></div>
+          <div class="skills-tab"><img src="icons/IBM.png" alt="SQL"><span class="sr-only">SQL</span></div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Section Project -->
+
+    <section id="projects" class="Projects section">
+      <div id="heading" class="about">
+        <h3>Projects</h3>
+        <div id="line"></div>
+      </div>
+      <div class="project-box">
+        <div class="project-left">
+          <div class="project-section">
+            <a href="https://github.com/rahulgulabaji/Web-Projects"><img src="icons/Web-development.jpg"></a>
+
+            <!-- <h4>Web-Development</h4> -->
+          </div>
+          <div class="project-section">
+            <img>
+            <h4></h4>
+          </div>
+        </div>
+        <div class="project-right">
+          <div class="project-section">
+            <img>
+            <h4></h4>
+          </div>
+          <div class="project-section">
+            <img>
+            <h4></h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section For Contact -->
+    <section id="contact" class="section">
+      <div id="heading" class="about">
+        <h3>Contact</h3>
+        <div id="line"></div>
+      </div>
+      <form id="Contact-form" class="contact">
+        <div>
+          <h3>Get In Touch</h3>
+          <input id="name" type="text" placeholder="Name" required>
+          <input id="email" type="email" placeholder="Email" required>
+          <input id="subject" type="text" placeholder="Subject" required>
+          <textarea id="message" placeholder="Message" rows="4" required></textarea>
+          <button id="submit" type="submit" onclick="sendEmail(event)">
+            <span>Send Message</span>
+          </button>
+        </div>
+      </form>
+      <div id="contact-box" class="contact">
+        <h3>Social</h3>
+        <div id="contact-social">
+          <a href="mailto: rgulabaji@gmail.com"><img src="icons/email.png" id="email" title="Email"></a>
+          <a href="https://x.com/rahulgulabaji"><img src="icons/twitter-x.png" id="linkedin" title="Twitter"></a>
+          <a href="https://github.com/rahulgulabaji"><img src="icons/github.png" id="github" title="Github"></a>
+          <a href="https://www.instagram.com/rahulgulabaji/"><img src="icons/instagram.png" id="instagram"
+              title="Instagram"></a>
+        </div>
+        <h3>Address</h3>
+        <div id="contact-address">
+          <a href="https://maps.app.goo.gl/XcyNDYcR5bmpCKfz6"> <img src="icons/maps-and-flags.png" title="Google Maps"
+              alt="GoogleMap"></a>
+          <p>MMDU, Ambala, Haryana, India 133207 </p>
+        </div>
+        <!-- <div id="social-email">
+              <img src="icons/phone-call.png">
+              <p>__________ </p>
+            </div> -->
+      </div>
+    </section>
+    <footer>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: ["Student.", "Coder.", "Programmer."],
+      typeSpeed: 150,
+      backSpeed: 150,
+      loop: true,
+      loopDelay: 1000,
+    })
+  </script>
+</body>
+
+</html>
