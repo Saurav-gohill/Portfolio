@@ -1,8 +1,8 @@
-# 🌐 Rahul Gulabaji – Personal Developer Portfolio Website
+# 🌐 Saurav Gohill – Personal Developer Portfolio Website
 
 Welcome to the official **open-source GitHub repository** for my personal developer portfolio – a responsive, lightweight, and modern website created using **HTML5, CSS3, and JavaScript**. This portfolio is built to showcase my technical skills, software projects, and career achievements in web development, full-stack engineering, and creative coding.
 
-> 📍 **Live Portfolio Website:** [https://rahulgulabaji.github.io](https://rahulgulabaji.github.io)
+> 📍 **Live Portfolio Website:** []()
 
 ---
 
@@ -72,11 +72,11 @@ Below are real screenshots from the live portfolio website. These images are loc
   <table>
     <tr>
       <td align="center">
-        <img src="Screenshot/Screenshot 2025-03-29 155155.png" alt="Home Page" width="250px"><br>
+        <img src="" alt="Home Page" width="250px"><br>
         <b>🏠 Home Page</b>
       </td>
       <td align="center">
-        <img src="Screenshot/Screenshot 2025-03-29 155227.png" alt="About Section" width="250px"><br>
+        <img src="" alt="About Section" width="250px"><br>
         <b>🧑‍💻 About Me</b>
       </td>
       <!-- <td align="center">
@@ -84,21 +84,21 @@ Below are real screenshots from the live portfolio website. These images are loc
         <b>💼 Projects Section</b> -->
       </td>
       <td align="center">
-        <img src="Screenshot/Screenshot 2025-03-29 155348.png" alt="Contact Section" width="250px"><br>
+        <img src="" alt="Contact Section" width="250px"><br>
         <b>📞 Contact</b>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img src="Screenshot/Screenshot 2025-03-29 155300.png" alt="Screenshot 5" width="250px"><br>
+        <img src="" alt="Screenshot 5" width="250px"><br>
         <b>💻 Education</b>
       </td>
       <td align="center">
-        <img src="Screenshot/Screenshot 2025-03-29 155316.png" alt="Screenshot 6" width="250px"><br>
+        <img src="" alt="Screenshot 6" width="250px"><br>
         <b>🧩 Skills</b>
       </td>
       <td align="center">
-        <img src="Screenshot/Screenshot 2025-04-06 154738.png" alt="Screenshot 7" width="250px"><br>
+        <img src="" alt="Screenshot 7" width="250px"><br>
         <b>🌐 Projects</b>
       </td>
       <!-- <td align="center">
@@ -121,4 +121,4 @@ Want to use or customize this portfolio for yourself? Follow these steps:
 
 ### 💾 Clone the Repository
 ```bash
-git clone https://github.com/rahulgulabaji/rahulgulabaji.github.io.git
+git clone https://github.com/Saurav-gohill/Portfolio.git
