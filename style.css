@@ -775,7 +775,6 @@ textarea :focus{
     transform: scale(0.98);
     box-shadow: 0 2px 8px rgba(255,226,89,0.12);
 }
-}
 
 #contact-box{
     width: 100%;
