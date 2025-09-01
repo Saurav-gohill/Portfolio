@@ -240,7 +240,7 @@ nav {
 
 .click-image{
     text-align: right;
-    margin-right: 150px;
+    margin-right: 155px;
     color: #ffe259;
     font-weight: 600;
     font-size: 1.1rem;
@@ -510,24 +510,75 @@ h1{
 .project-box{
     width: 100%;
     height: 100%;
-    background-color:#26262c;
+    background: linear-gradient(135deg, #232526 0%, #414345 100%);
     display: flex;
-    justify-content: space-evenly;
-    align-content: space-evenly;
-    border-radius: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    border-radius: 24px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
 }
 .project-section{
-    height: 200px;
-    width: 350px;
-    border: 3px solid ;
-    margin: 30px;
-
+    min-height: 320px;
+    width: 340px;
+    background: #191a1d;
+    border-radius: 18px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    margin: 18px;
+    padding: 18px 18px 12px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.18s, box-shadow 0.18s;
+    border: none;
 }
+.project-section:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 12px 32px rgba(255,226,89,0.18);
+    background: linear-gradient(135deg, #ffe259 0%, #ffa751 100%);
+}
+
 .project-section img{
-    width: 100%;
-    height: 100%;
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
 }
-
+.project-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #ffe259;
+    margin: 8px 0 4px 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.project-section:hover .project-title {
+    color: #222;
+}
+.project-tech {
+    font-size: 0.98rem;
+    color: #ffa751;
+    margin-bottom: 6px;
+    text-align: center;
+    font-weight: 600;
+}
+.project-section:hover .project-tech {
+    color: #222;
+}
+.project-desc {
+    font-size: 0.97rem;
+    color: #f5deb3;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 4px;
+    line-height: 1.5;
+}
+.project-section:hover .project-desc {
+    color: #222;
+}
 
 
 .Education{
