@@ -1,3 +1,30 @@
+// Fun Facts Logic
+document.addEventListener('DOMContentLoaded', function() {
+  const facts = [
+    "Honey never spoils. Archaeologists have found 3000-year-old honey in Egyptian tombs!",
+    "Bananas are berries, but strawberries are not.",
+    "A group of flamingos is called a 'flamboyance'.",
+    "Octopuses have three hearts.",
+    "The Eiffel Tower can be 15 cm taller during hot days.",
+    "There are more stars in the universe than grains of sand on Earth.",
+    "Some cats are allergic to humans!",
+    "A day on Venus is longer than a year on Venus.",
+    "Wombat poop is cube-shaped.",
+    "The inventor of the frisbee was turned into a frisbee after he died."
+  ];
+  function setRandomFact() {
+    const factDiv = document.getElementById('fun-fact');
+    if (factDiv) {
+      const idx = Math.floor(Math.random() * facts.length);
+      factDiv.textContent = 'Fun Fact: ' + facts[idx];
+    }
+  }
+  const btn = document.getElementById('change-fact-btn');
+  if (btn) {
+    btn.addEventListener('click', setRandomFact);
+    setRandomFact();
+  }
+});
 // Hero Modal Card Logic
 document.addEventListener('DOMContentLoaded', function() {
   const profilePic = document.getElementById('profile-pic');
