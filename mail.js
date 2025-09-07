@@ -2,7 +2,7 @@ function sendEmail(event) {
     if (event) event.preventDefault();
     let params = {
         name: document.getElementById("name").value,
-        email: document.getElementById("email").value,
+        email: document.getElementById("email1").value,
         subject: document.getElementById("subject").value,
         message: document.getElementById("message").value
     };
